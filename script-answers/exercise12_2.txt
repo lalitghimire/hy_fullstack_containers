@@ -1,0 +1,18 @@
+Script started on 2021-12-22 16:02:51+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="105" LINES="53"]
+]0;lalit@lalit: ~/hy_fullstack_containers[01;32mlalit@lalit[00m:[01;34m~/hy_fullstack_containers[00m$ docker run [K[K[K[K[K container run -t ubuntu basg[Kh[1@i
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K7b1a6ab2e44d: Pulling fs layer [1B[1A[2K7b1a6ab2e44d: Downloading    290kB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading   1.76MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  2.952MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  4.414MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading   5.88MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  7.068MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  8.538MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  10.01MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading   11.2MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  12.68MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  13.86MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  15.33MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading   16.5MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  17.97MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  19.45MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  20.91MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  22.39MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  23.87MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  25.34MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading  26.53MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading     28MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Verifying Checksum [1B[1A[2K7b1a6ab2e44d: Download complete [1B[1A[2K7b1a6ab2e44d: Extracting  294.9kB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting  7.668MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting  13.27MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting  22.12MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting  26.54MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting  28.57MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Pull complete [1BDigest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+Status: Downloaded newer image for ubuntu:latest
+]0;root@ea61e2bba9e0: /root@ea61e2bba9e0:/# [K]0;root@ea61e2bba9e0: /root@ea61e2bba9e0:/# mkdir /usr/src/app   app
+]0;root@ea61e2bba9e0: /root@ea61e2bba9e0:/# touch /usr/src/app/index.js
+]0;root@ea61e2bba9e0: /root@ea61e2bba9e0:/# [Kcd /usr/src/app/
+]0;root@ea61e2bba9e0: /usr/src/approot@ea61e2bba9e0:/usr/src/app# ls
+index.js
+]0;root@ea61e2bba9e0: /usr/src/approot@ea61e2bba9e0:/usr/src/app# exit 
+exit
+]0;lalit@lalit: ~/hy_fullstack_containers[01;32mlalit@lalit[00m:[01;34m~/hy_fullstack_containers[00m$ exit
+exit
+
+Script done on 2021-12-22 16:05:51+02:00 [COMMAND_EXIT_CODE="0"]
