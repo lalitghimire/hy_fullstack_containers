@@ -39,3 +39,7 @@ The repository you cloned or copied in the first exercise contains a todo-app. S
 Step 1. Containerize the todo-backend by creating a todo-app/todo-backend/Dockerfile and building an image.  
 Step 2. Run the todo-backend image with the correct ports open. Make sure the visit counter increases when used through a browser in http://localhost:3000/ (or some other port if you configure so)  
 Tip: Run the application outside of a container to examine it before starting to containerize.
+
+## Exercise 12.6: docker-compose
+Create a todo-app/todo-backend/docker-compose.yml file that works with the node application from the previous exercise.  
+The visit counter is the only feature that is required to be working.  
