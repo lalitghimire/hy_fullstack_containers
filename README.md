@@ -43,3 +43,11 @@ Tip: Run the application outside of a container to examine it before starting to
 ## Exercise 12.6: docker-compose
 Create a todo-app/todo-backend/docker-compose.yml file that works with the node application from the previous exercise.  
 The visit counter is the only feature that is required to be working.  
+
+## Exercise 12.7: Little bit of MongoDB coding
+Note that this exercise assumes that you have done all the configurations made in material after the exercise 12.5. You should still run the todo-app backend outside a container just the MongoDB is containerized for now.  
+The todo application has no proper implementation of routes for getting one todo (GET /todos/:id) and updating one todo (PUT /todos/:id). Fix the code.
+
+## Exercise 12.8: Mongo command-line interface
+Use script to record what you do, save the file as script-answers/exercise12_8.txt  
+While the MongoDB from the previous exercise is running, access the database with mongo command-line interface (CLI). You can do that using docker exec. Then add a new todo using the CLI.
